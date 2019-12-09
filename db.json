@@ -1,1 +1,612 @@
-
+{
+  "launcherSelector": "[data-trigger='miplast']",
+  "data": {
+    "steps": {
+      "user-region": {
+        "index": 1,
+        "path": "/html/templates/miplast/user-region.html",
+        "field": "user-region",
+        "category": "contribute",
+        "headline": "Wake-up call: Where do you wake up in the morning?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "Africa and Middle East",
+              "value": "afn",
+              "response": {
+                "headline": "Africa and Middle East",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "South America",
+              "value": "ams",
+              "response": {
+                "headline": "South America",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "Europe and Central Asia",
+              "value": "asz",
+              "response": {
+                "headline": "Europe and Central Asia",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "East Asia and Oceania",
+              "value": "aso",
+              "response": {
+                "headline": "East Asia and Oceania",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "North America",
+              "value": "amn",
+              "response": {
+                "headline": "North America",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "China",
+              "value": "chn",
+              "response": {
+                "headline": "China",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "India and South Asia",
+              "value": "ass",
+              "response": {
+                "headline": "India and South Asia",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-town-size": {
+        "index": 2,
+        "path": "/html/templates/miplast/user-town-size.html",
+        "field": "user-town-size",
+        "category": "affected",
+        "headline": "Big city or out of town: Where do you breathe fresh air?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "large city",
+              "value": {
+                "afn": 112800,
+                "ams": 480000,
+                "asz": 360000,
+                "aso": 840000,
+                "amn": 960000,
+                "chn": 216000,
+                "ass": 192000
+              },
+              "response": {
+                "headline": "large city",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "mid size town",
+              "value": {
+                "afn": 564000,
+                "ams": 240000,
+                "asz": 180000,
+                "aso": 420000,
+                "amn": 480000,
+                "chn": 108000,
+                "ass": 96000
+              },
+              "response": {
+                "headline": "mid size town",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "Country",
+              "value": {
+                "afn": 11280,
+                "ams": 48000,
+                "asz": 36000,
+                "aso": 84000,
+                "amn": 96000,
+                "chn": 216000,
+                "ass": 192000
+              },
+              "response": {
+                "headline": "Country",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-morning-routine": {
+        "index": 3,
+        "path": "/html/templates/miplast/user-morning-routine.html",
+        "field": "user-morning-routine",
+        "category": "contribute",
+        "headline": "Premium particles: What beverage gets your motor running in the morning?",
+        "options": {
+          "type": "multiple",
+          "items": [
+            {
+              "label": "brushing teeth",
+              "response": {
+                "headline": "brushing teeth",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "showering",
+              "response": {
+                "headline": "showering",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "hair conditioning/styling",
+              "response": {
+                "headline": "hair conditioning/styling",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "make-up/cosmetic products",
+              "response": {
+                "headline": "make-up/cosmetic products",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        },
+        "value": {
+          "afn": 9400,
+          "ams": 40000,
+          "asz": 30000,
+          "aso": 70000,
+          "amn": 80000,
+          "chn": 18000,
+          "ass": 16000
+        }
+      },
+      "user-morning-beverage": {
+        "index": 4,
+        "path": "/html/templates/miplast/user-morning-beverage.html",
+        "field": "user-morning-beverage",
+        "category": "affected",
+        "headline": "Premium particles: What beverage gets your motor running in the morning?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "silken pyramid tea bag",
+              "value": 116000000000,
+              "response": {
+                "headline": "silken pyramid tea bag",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "normal tea bag",
+              "value": 0,
+              "response": {
+                "headline": "normal tea bag",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "coffee from plastic pods",
+              "value": 10,
+              "response": {
+                "headline": "coffee from plastic pods",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "Ground coffee",
+              "value": 10,
+              "response": {
+                "headline": "Ground coffee",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "none",
+              "value": 0,
+              "response": {
+                "headline": "none",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-transport": {
+        "index": 5,
+        "path": "/html/templates/miplast/user-transport.html",
+        "field": "user-transport",
+        "category": "contribute",
+        "headline": "Speedy contamination: What kind of transport do you use to get around?",
+        "options": {
+          "type": "multiple",
+          "items": [
+            {
+              "label": "car",
+              "value": {
+                "afn": 132000,
+                "ams": 560000,
+                "asz": 420000,
+                "aso": 980000,
+                "amn": 1120000,
+                "chn": 252000,
+                "ass": 224000
+              },
+              "response": {
+                "headline": "car",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "train",
+              "value": {
+                "afn": 1000,
+                "ams": 1000,
+                "asz": 1000,
+                "aso": 1000,
+                "amn": 1000,
+                "chn": 1000,
+                "ass": 1000
+              },
+              "response": {
+                "headline": "train",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "bicycle",
+              "value": {
+                "afn": 500,
+                "ams": 500,
+                "asz": 500,
+                "aso": 500,
+                "amn": 500,
+                "chn": 500,
+                "ass": 500
+              },
+              "response": {
+                "headline": "bicycle",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "shoes",
+              "value": {
+                "afn": 100,
+                "ams": 100,
+                "asz": 100,
+                "aso": 100,
+                "amn": 100,
+                "chn": 100,
+                "ass": 100
+              },
+              "response": {
+                "headline": "shoes",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-carpeted-floors": {
+        "index": 6,
+        "path": "/html/templates/miplast/user-carpeted-floors.html",
+        "field": "user-carpeted-floors",
+        "category": "affected",
+        "headline": "Walk of Particles: Where do you encounter carpeted floors in your daily life?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "Carpeted rooms at work",
+              "value": {
+                "afn": 564000,
+                "ams": 240000,
+                "asz": 180000,
+                "aso": 420000,
+                "amn": 480000,
+                "chn": 108000,
+                "ass": 96000
+              },
+              "response": {
+                "headline": "Carpeted rooms at work",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "none",
+              "value": 0,
+              "response": {
+                "headline": "none",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-gender": {
+        "index": 7,
+        "path": "/html/templates/miplast/user-gender.html",
+        "field": "user-gender",
+        "category": "affected",
+        "headline": "Plastic diet: How do people address you when you make a lunch reservation?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "Mr.",
+              "value": 140,
+              "response": {
+                "headline": "Mr.",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "Mrs.",
+              "value": 130,
+              "response": {
+                "headline": "Mrs.",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-water": {
+        "index": 8,
+        "path": "/html/templates/miplast/user-water.html",
+        "field": "user-water",
+        "category": "affected",
+        "headline": "Refreshing: Do you drink more tap or more bottled water?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "tap water",
+              "value": 10,
+              "response": {
+                "headline": "tap water",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "bottled water",
+              "value": 250,
+              "response": {
+                "headline": "bottled water",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "both equally",
+              "value": 130,
+              "response": {
+                "headline": "both equally",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-shoping": {
+        "index": 9,
+        "path": "/html/templates/miplast/user-shoping.html",
+        "field": "user-shoping",
+        "category": "contribute",
+        "headline": "Shopping spree: Do you buy groceries packed in plastic?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "Groceries in plastic",
+              "value": 0,
+              "response": {
+                "headline": "Groceries in plastic",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "Groceries without plastic",
+              "value": 0,
+              "response": {
+                "headline": "Groceries without plastic",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      },
+      "user-washing": {
+        "index": 10,
+        "path": "/html/templates/miplast/user-washing.html",
+        "field": "user-washing",
+        "category": "contribute",
+        "headline": "Careful: How many times per week do you wash your clothes?",
+        "options": {
+          "type": "single",
+          "items": [
+            {
+              "label": "1",
+              "value": {
+                "afn": 15000,
+                "ams": 630000,
+                "asz": 500000,
+                "aso": 1100000,
+                "amn": 1300000,
+                "chn": 300000,
+                "ass": 250000
+              },
+              "response": {
+                "headline": "1",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "2",
+              "value": {
+                "afn": 30000,
+                "ams": 1260000,
+                "asz": 1000000,
+                "aso": 2200000,
+                "amn": 2600000,
+                "chn": 600000,
+                "ass": 500000
+              },
+              "response": {
+                "headline": "2",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "3",
+              "value": {
+                "afn": 45000,
+                "ams": 1890000,
+                "asz": 1500000,
+                "aso": 3300000,
+                "amn": 3900000,
+                "chn": 900000,
+                "ass": 750000
+              },
+              "response": {
+                "headline": "3",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "4",
+              "value": {
+                "afn": 60000,
+                "ams": 2520000,
+                "asz": 2000000,
+                "aso": 4400000,
+                "amn": 5200000,
+                "chn": 1200000,
+                "ass": 1000000
+              },
+              "response": {
+                "headline": "4",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "5",
+              "value": {
+                "afn": 75000,
+                "ams": 3150000,
+                "asz": 2500000,
+                "aso": 5500000,
+                "amn": 6500000,
+                "chn": 1500000,
+                "ass": 1250000
+              },
+              "response": {
+                "headline": "5",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "6",
+              "value": {
+                "afn": 90000,
+                "ams": 3780000,
+                "asz": 3000000,
+                "aso": 6600000,
+                "amn": 7800000,
+                "chn": 1800000,
+                "ass": 1500000
+              },
+              "response": {
+                "headline": "6",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "7",
+              "value": {
+                "afn": 105000,
+                "ams": 4410000,
+                "asz": 3500000,
+                "aso": 7700000,
+                "amn": 9100000,
+                "chn": 2100000,
+                "ass": 1750000
+              },
+              "response": {
+                "headline": "7",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "8",
+              "value": {
+                "afn": 120000,
+                "ams": 5040000,
+                "asz": 4000000,
+                "aso": 8800000,
+                "amn": 10400000,
+                "chn": 2400000,
+                "ass": 2000000
+              },
+              "response": {
+                "headline": "8",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "9",
+              "value": {
+                "afn": 135000,
+                "ams": 5670000,
+                "asz": 4500000,
+                "aso": 9900000,
+                "amn": 11700000,
+                "chn": 2700000,
+                "ass": 2250000
+              },
+              "response": {
+                "headline": "9",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            },
+            {
+              "label": "10",
+              "value": {
+                "afn": 150000,
+                "ams": 6300000,
+                "asz": 5000000,
+                "aso": 11000000,
+                "amn": 13000000,
+                "chn": 3000000,
+                "ass": 2500000
+              },
+              "response": {
+                "headline": "10",
+                "copy": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
